@@ -25,7 +25,9 @@ with open(pickle_path, "rb") as file:
      sc= pickle.load(file)
      ac= pickle.load(file)
 
-model_path = r"C:\Users\Adhi Ganapathy\Documents\Deep learning\ANN implementation\Model.keras"
+model_path = os.path.join(BASE_DIR, "Model.keras")
+
+
 classifier = keras.models.load_model(model_path)
 
 st.sidebar.title("Bank Customer Churn Prediction")  
