@@ -1,3 +1,4 @@
+# Bank Customer Churn Prediction using Deep Neural Network (DNN) 
 [Live Demo](https://bank-customer-churn-prediction-using-deep-neural-networks-g92d.streamlit.app/)  
 
 An interactive web app that predicts whether a bank customer is likely to churn or stay, built using **Streamlit** and a **Deep neural network model**.  
