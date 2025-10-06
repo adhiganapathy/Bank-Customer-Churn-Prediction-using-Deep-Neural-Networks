@@ -28,7 +28,7 @@ with open(pickle_path, "rb") as file:
 model_path = os.path.join(BASE_DIR, "Model.keras")
 
 
-classifier = keras.models.load_model(model_path)
+classifier = keras.models.load_model(model_path,safe_mode=False)
 
 st.sidebar.title("Bank Customer Churn Prediction")  
 
