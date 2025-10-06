@@ -73,10 +73,10 @@ def predictions():
         predicted_label = (prediction > 0.5).astype(int)
         print(predicted_label[0])
         if predicted_label[0] == 1:
-             st.success("Customer {} is likely to churn from Justice Bank.".format(CN))
+             st.error("Customer {} is likely to churn from Justice Bank.".format(CN))
             
         else:
-            st.error(f"Customer {CN}  is likely to stay with Justice Bank.") 
+            st.success(f"Customer {CN}  is likely to stay with Justice Bank.") 
             
          
 
