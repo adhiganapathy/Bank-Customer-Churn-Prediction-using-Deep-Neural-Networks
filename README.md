@@ -21,6 +21,5 @@ An interactive web app that predicts whether a bank customer is likely to churn 
 | **Streamlit** | Web framework to deploy the model as an interactive app |
 | **Pandas / NumPy** | Data loading, cleaning, and preprocessing |
 | **Scikit-learn** | Splitting data, evaluation metrics, scaling |
-| **Docker / Deployment (optional)** | If you containerized or plan to deploy at scale |
 
 ---
